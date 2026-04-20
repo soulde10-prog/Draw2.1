@@ -1,0 +1,21 @@
+# Ignore sensitive environment variables
+.env
+
+# Ignore dependencies
+node_modules/
+
+# Ignore IDE files
+*.idea/
+*.vscode/
+
+# Ignore build outputs
+build/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
