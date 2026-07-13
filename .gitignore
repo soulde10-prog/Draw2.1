@@ -1,21 +1,69 @@
-# Ignore sensitive environment variables
-.env
+# .gitignore
 
-# Ignore dependencies
+# Dependencies
 node_modules/
+/.pnp
+.pnp.js
 
-# Ignore IDE files
-*.idea/
-*.vscode/
+# Frontend
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
 
-# Ignore build outputs
-build/
+# Backend
+backend/logs/
+backend/.env.local
+backend/.env.*.local
 
-# Ignore logs
-*.log
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-# Ignore temporary files
-*.tmp
-*.temp
-*.bak
+# IDEs
+.vscode/
+.idea/
 *.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Build and dist
+/dist
+/build
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Miscellaneous
+*.bak
+*.tmp
+.cache/
+.DS_Store
+installer/
+*.exe
+*.msi
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Backups
+/backup/
+*.tar.gz
+*.zip

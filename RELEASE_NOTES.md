@@ -256,7 +256,7 @@ MIT License - See LICENSE file for details
 
 ---
 
-## 📊 Version History
+## 📋 Version History
 
 | Version | Date | Status | Download |
 |---------|------|--------|----------|
